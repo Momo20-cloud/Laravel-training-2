@@ -7,7 +7,7 @@
         <title>{{config('app.name'), 'PKProject'}}</title>
 
     <body>
-        <h1>About</h1>
-        <p>This is the About page.</p>
+        <h1>Services</h1>
+        <p>This is the Service page.</p>
     </body>
 </html>

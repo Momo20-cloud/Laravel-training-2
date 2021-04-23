@@ -7,7 +7,7 @@
         <title>{{config('app.name'), 'PKProject'}}</title>
 
     <body>
-        <h1>About</h1>
-        <p>This is the About page.</p>
+        <h1>Welcome to Laravel for Beginners from IGS SCHOOL</h1>
+        <p>This is a Laravel Tutorial series.</p>
     </body>
 </html>

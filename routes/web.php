@@ -12,15 +12,12 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::view('/', 'welcome')-> name('home');
+Route::view('/index', 'pages.index')-> name('index');
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::get('/About', function () {
-    return view('pages.about');
-});
+Route::view('/About-us', 'pages.about')-> name('about');
 
 Route::get('/users/{id}', function ($id) {
     return 'This is a user ' . $id;
 });
+  
